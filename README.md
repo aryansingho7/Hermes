@@ -30,7 +30,7 @@ Note that the sender keys, however, have to be shared with each user without the
 
 <img src="http://blog.trendmicro.com/trendlabs-security-intelligence/files/2015/09/anglerek_dh_01.jpg" width="500">
 
-This step is done only on intialization if users and is <img src="https://render.githubusercontent.com/render/math?math=O(n^{2})"> where n is number of users.
+This step is done only on initialization if users and is <img src="https://render.githubusercontent.com/render/math?math=O(n^{2})"> where n is number of users.
 
 #### The DFKE and Sender Key exchange is done as follows: 
 - When initialized the server searches for a 2048 digit long random prime `p` which is shared over all users the base `g` used is fixed at `2`(Shown to have the same level of security)
